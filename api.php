@@ -21,7 +21,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);
 
 $headers = array();
 $headers[] = 'Content-Type: application/json';
-$headers[] = 'Authorization:Bearer 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';
+$headers[] = 'Authorization:Bearer Use API key';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 $result = curl_exec($ch);
